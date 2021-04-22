@@ -1,0 +1,141 @@
+[debug] [2021-04-22T15:51:39.539Z] ----------------------------------------------------------------------
+[debug] [2021-04-22T15:51:39.541Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-22T15:51:39.542Z] CLI Version:   9.10.0
+[debug] [2021-04-22T15:51:39.542Z] Platform:      win32
+[debug] [2021-04-22T15:51:39.542Z] Node Version:  v14.16.1
+[debug] [2021-04-22T15:51:39.543Z] Time:          Fri Apr 23 2021 00:51:39 GMT+0900 (日本標準時)
+[debug] [2021-04-22T15:51:39.543Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-22T15:51:39.560Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-22T15:51:39.560Z] > authorizing via signed-in user (oishii.onigiri.2tudake@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nekko\Documents\Development\Hackathon\optroute
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using optroot-5bc40. 
+[debug] [2021-04-22T15:51:44.767Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 [none]
+[debug] [2021-04-22T15:51:45.602Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 403
+[debug] [2021-04-22T15:51:45.602Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-04-22T15:51:45.603Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-22T15:51:45.890Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project optroot-5bc40. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-04-22T15:52:17.319Z] ----------------------------------------------------------------------
+[debug] [2021-04-22T15:52:17.321Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-22T15:52:17.322Z] CLI Version:   9.10.0
+[debug] [2021-04-22T15:52:17.322Z] Platform:      win32
+[debug] [2021-04-22T15:52:17.322Z] Node Version:  v14.16.1
+[debug] [2021-04-22T15:52:17.323Z] Time:          Fri Apr 23 2021 00:52:17 GMT+0900 (日本標準時)
+[debug] [2021-04-22T15:52:17.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-22T15:52:17.349Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-22T15:52:17.350Z] > authorizing via signed-in user (oishii.onigiri.2tudake@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nekko\Documents\Development\Hackathon\optroute
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using optroot-5bc40. 
+[debug] [2021-04-22T15:52:25.091Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 [none]
+[debug] [2021-04-22T15:52:26.050Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 403
+[debug] [2021-04-22T15:52:26.050Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-04-22T15:52:26.051Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-22T15:52:26.299Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project optroot-5bc40. Please make sure the project exists and your account has permission to access it.
+[debug] [2021-04-22T15:59:09.014Z] ----------------------------------------------------------------------
+[debug] [2021-04-22T15:59:09.019Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-04-22T15:59:09.021Z] CLI Version:   9.10.0
+[debug] [2021-04-22T15:59:09.021Z] Platform:      win32
+[debug] [2021-04-22T15:59:09.021Z] Node Version:  v14.16.1
+[debug] [2021-04-22T15:59:09.026Z] Time:          Fri Apr 23 2021 00:59:09 GMT+0900 (日本標準時)
+[debug] [2021-04-22T15:59:09.026Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2021-04-22T15:59:09.044Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-04-22T15:59:09.044Z] > authorizing via signed-in user (oishii.onigiri.2tudake@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\nekko\Documents\Development\Hackathon\optroute
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[info] i  .firebaserc already has a default project, using optroot-5bc40. 
+[debug] [2021-04-22T15:59:15.967Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 [none]
+[debug] [2021-04-22T15:59:16.818Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 403
+[debug] [2021-04-22T15:59:16.818Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/optroot-5bc40 {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2021-04-22T15:59:16.819Z] HTTP Error: 403, The caller does not have permission
+[debug] [2021-04-22T15:59:17.086Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at module.exports (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:38:12)
+    at Client.doRequest (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:238:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Client.request (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:96:20)
+    at async Object.getFirebaseProject (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\management\projects.js:290:21)
+    at async Object.doSetup [as project] (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\features\project.js:77:27)
+    at async init (C:\Users\nekko\AppData\Roaming\npm\node_modules\firebase-tools\lib\init\index.js:19:9)
+[error] 
+[error] Error: Failed to get Firebase project optroot-5bc40. Please make sure the project exists and your account has permission to access it.
